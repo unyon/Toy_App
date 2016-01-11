@@ -1,13 +1,18 @@
 <h1>Microposts</h1>
 
   <head>
-    <tr>
-
+<div class="col-xs-2">
+</div>
+<div class="booyah2-box col-xs-10 col-xs-offset-1 col-sm-8 col-sm-4-offset">
+<br />
+</div>
+<div class="col-xs-2">
+</div>
   </head>
 
   <body> 
     <% @microposts.each do |micropost| %>
-    <div class="booyah-box col-xs-10 col-xs-offset-1">
+    <div class="booyah-box col-xs-1 col-xs-offset-1 col-sm-offset-0 col-sm-1">
         <h4><%= micropost.content %></h4>
         <i><%= micropost.user_id %></i>
         <td><%= link_to 'Show', micropost %></td>
