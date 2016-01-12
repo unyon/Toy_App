@@ -5,6 +5,7 @@ class MicropostsController < ApplicationController
   # GET /microposts.json
   def index
     @microposts = Micropost.all
+    @micropost = Micropost.new
   end
 
   # GET /microposts/1
@@ -72,3 +73,4 @@ class MicropostsController < ApplicationController
       params.require(:micropost).permit(:content, :user_id)
     end
 end
+

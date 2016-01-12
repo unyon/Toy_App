@@ -70,6 +70,7 @@ body {
   margin-top:10px;
   margin-bottom:15px;
   padding:20px;
+  overflow: hidden;
 }
 
 .booyah2-box {
@@ -79,9 +80,11 @@ body {
   background: #fff;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-  margin-left: 40px;
-  margin-right: 40px;
   margin-top:10px;
   margin-bottom:15px;
   padding:20px;
+}
+
+.clear {
+  clear: both;
 }

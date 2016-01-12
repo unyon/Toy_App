@@ -24,9 +24,6 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-gem 'bootstrap-sass', '~> 3.3.5.1'
-gem 'sprockets', '2.11.0'
-gem 'sass-rails'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -45,4 +42,6 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-
+gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'sprockets', '2.11.0'
+gem 'sass-rails'
